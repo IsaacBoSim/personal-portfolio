@@ -1,0 +1,47 @@
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  color: rgba(33, 37, 50, 0.75);
+}
+.skill-bx {
+  background: #F5F5F5;
+  color: rgba(33, 37, 50, 0.75);
+  border-radius: 20px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: rgba(33, 37, 50, 0.75);
+}
+.skill p {
+  color: rgba(33, 37, 50, 0.75);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  color: rgba(33, 37, 50, 0.75);
+
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+  padding: 10px;
+  color: rgba(33, 37, 50, 0.75);
+}
+.background-image-left {
+  position: absolute;
+  bottom: 0;
+  z-index: -4;
+  background-image: url('../../assets/image/coffeebean.png');
+  background-size: cover;
+  background-position: center;
+}

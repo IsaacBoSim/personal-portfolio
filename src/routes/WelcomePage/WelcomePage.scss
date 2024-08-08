@@ -1,0 +1,84 @@
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('../../assets/image/coffeemug.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .tagline {
+  font-weight: 900;
+  color: rgba(33, 37, 50, 0.75);
+  letter-spacing: 2px;
+  padding: 8px 10px;
+  font-size: 25px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  color: rgba(33, 37, 50, 0.75);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.banner p {
+  color: #212532;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 70%;
+}
+
+.banner button {
+  background-color: #6E4F47;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.banner button:hover {
+  background-color: #836953;
+}
+
+.banner button svg {
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.banner button:hover svg {
+  margin-left: 25px;
+}
+
+.txt-rotate > .wrap {
+  border-right: rgba(33, 37, 50, 0.75);
+}
+
+.portrait-container {
+  width: 475px;
+  height: 475px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(152, 108, 95, 0.52);
+}
+
+.portrait {
+  width: 125%;
+  height: 125%;
+  object-fit: cover;
+}
