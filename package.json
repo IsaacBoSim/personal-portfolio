@@ -55,5 +55,9 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "  https://isaacbosim.github.io/personal-portfolio/"
+  "homepage": "  https://isaacbosim.com",
+
+  "scripts": {
+  "build": "react-scripts build"
+  }
 }
