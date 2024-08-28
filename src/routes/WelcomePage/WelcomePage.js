@@ -57,7 +57,7 @@ export const WelcomePage = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio!</span>
+                <span className="tagline">Welcome to my Portfolio Website!</span>
                 <h1>{`Isaac B. Sim`} <span className="txt-rotate" dataPeriod="250" data-rotate='[ "Aspiring", "Software", "Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Aspiring Software Developer. Graduated University of Virginia Class of 2025 with a Bachelor of Science in Computer Science & Biomedical Engineering.</p>
                 <button>Get to Know Isaac <ArrowRightCircle size={25} /></button>
@@ -69,7 +69,7 @@ export const WelcomePage = () => {
             {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                 <div className="portrait-container">
-                  <img className="portrait" src={portrait} alt="Header Img"/>
+                  <img className="portrait" src={portrait} alt="Portrait"/>
                 </div>
               </div>}
           </TrackVisibility>

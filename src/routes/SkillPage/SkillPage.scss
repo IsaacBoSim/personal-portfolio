@@ -3,8 +3,9 @@
   position: relative;
   color: rgba(33, 37, 50, 0.75);
 }
+
 .skill-bx {
-  background: #F5F5F5;
+  background: #FFF7F0;
   color: rgba(33, 37, 50, 0.75);
   border-radius: 20px;
   text-align: center;
@@ -12,11 +13,13 @@
   margin-top: -60px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
 }
+
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
   color: rgba(33, 37, 50, 0.75);
 }
+
 .skill p {
   color: rgba(33, 37, 50, 0.75);
   font-size: 18px;
@@ -24,24 +27,50 @@
   line-height: 1.5em;
   margin: 14px 0 75px 0;
 }
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
   color: rgba(33, 37, 50, 0.75);
-
 }
+
+/* Custom styling for the carousel arrows */
+.skill-slider .react-multiple-carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 40px;
+  background-color: rgba(33, 37, 50, 0.75); /* Example color, adjust as needed */
+  border-radius: 50%;
+  border: none;
+  z-index: 10;
+  opacity: 1;
+}
+
+/* Position the left arrow closer to the edge */
+.skill-slider .react-multiple-carousel__arrow--left {
+  left: -0px; /* Adjust this value to move the arrow slightly left */
+}
+
+/* Position the right arrow closer to the edge */
+.skill-slider .react-multiple-carousel__arrow--right {
+  right: -0px; /* Adjust this value to move the arrow slightly right */
+}
+
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
   padding: 10px;
   color: rgba(33, 37, 50, 0.75);
 }
+
 .background-image-left {
   position: absolute;
   bottom: 0;
   z-index: -4;
-  background-image: url('../../assets/image/coffeebean.png');
+  background-image: url('../../assets/image/coffeebean.jpeg');
   background-size: cover;
   background-position: center;
 }

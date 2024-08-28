@@ -4,8 +4,6 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { WelcomePage } from "./routes/WelcomePage/WelcomePage";
 import { SkillPage } from "./routes/SkillPage/SkillPage";
 import { ProjectPage } from "./routes/ProjectPage/ProjectPage";
-import { ContactPage } from "./routes/ContactPage/ContactPage";
-import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,8 +12,6 @@ function App() {
       <WelcomePage />
       <SkillPage />
       <ProjectPage />
-      <ContactPage />
-      <Footer />
     </div>
   );
 }

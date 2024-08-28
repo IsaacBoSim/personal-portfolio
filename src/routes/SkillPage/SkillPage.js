@@ -12,7 +12,7 @@ import postgres from "../../assets/image/skillimage/postgres.svg";
 import sql from "../../assets/image/skillimage/sql.svg";
 
 import Carousel from 'react-multi-carousel';
-import coffeebean from "../../assets/image/coffeebean.png"
+import coffeebean from "../../assets/image/coffeebean.jpeg"
 import {SkillCard} from "../../components/SkillCard/SkillCard";
 
 import 'react-multi-carousel/lib/styles.css';
@@ -20,21 +20,9 @@ import './SkillPage.scss';
 
 export const SkillPage = () => {
   const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
+    all: {
+      breakpoint: { max: 4000, min: 0 },
+      items: 4
     }
   };
 
