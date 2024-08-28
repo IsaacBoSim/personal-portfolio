@@ -20,9 +20,17 @@ import './SkillPage.scss';
 
 export const SkillPage = () => {
   const responsive = {
-    all: {
-      breakpoint: { max: 4000, min: 0 },
+    desktop: {
+      breakpoint: { max: 4000, min: 1000 },
       items: 4
+    },
+    smallDesktop: {
+      breakpoint: { max: 999, min: 750},
+      items: 3
+    },
+      touchscreen: {
+      breakpoint: { max: 749, min: 0},
+      items: 1
     }
   };
 
